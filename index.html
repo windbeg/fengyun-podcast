@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风云播客 - 随笔与见闻</title>
+    <meta name="description" content="风云的个人播客，分享生活随笔与每日见闻">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px;
+            }
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem 0;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        main {
+            padding: 2rem 0;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .essay-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .essay-item {
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .essay-item h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .essay-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .essay-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .essay-item a:hover {
+            text-decoration: underline;
+        }
+        
+        .news-content {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .news-update-time {
+            color: #856404;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .news-points {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .news-points li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .news-points li::before {
+            content: "•";
+            position: absolute;
+            left: 0.5rem;
+            color: #856404;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .about {
+            background: #e9ecef;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .about h3 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        .about p {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .section {
+                padding: 1rem;
+            }
+            
+            nav li {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>风云播客</h1>
+            <p>随笔与见闻 - 记录生活，关注世界</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#essays">随笔</a></li>
+                <li><a href="#news">战争消息</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <div class="about" id="about">
+                <h3>关于本站</h3>
+                <p>这里是风云的个人播客网站，主要分享生活随笔和每日关注的伊朗战争最新消息。希望通过文字记录生活的点滴，同时关注世界重要事件的发展。</p>
+            </div>
+            
+            <section class="section" id="essays">
+                <h2>📝 最新随笔</h2>
+                <div class="essay-list">
+                    <div class="essay-item">
+                        <h3>平安日的奔波与安慰</h3>
+                        <div class="essay-meta">2026年3月25日</div>
+                        <p>3月24日，是我们的平安日。早上7点钟，我们挂上了胡定中医生下午三点的专家号。立刻马上整理行装，定火车票，无座也买...</p>
+                        <a href="essays/2026-03-25.html">阅读全文 →</a>
+                    </div>
+                    
+                    <div class="essay-item">
+                        <h3>苦与暖，我们都在成长</h3>
+                        <div class="essay-meta">2026年3月25日</div>
+                        <p>有些时候觉得人生真的有点苦。特别是爸爸——爸爸走了，然后妈妈也身体不好。现在春霞身体也出问题，确实让人觉得心比较沉...</p>
+                        <a href="essays/2026-03-25.html#second">阅读全文 →</a>
+                    </div>
+                    
+                    <div class="essay-item">
+                        <h3>家庭起伏与医疗决策</h3>
+                        <div class="essay-meta">2026年3月23日</div>
+                        <p>我不算是个悲观的人，生活积极乐观。主动学习，保持好奇心，夫人爱生活，爸爸爱种地，母亲一个心在爸爸身上...</p>
+                        <a href="essays/2026-03-23.html">阅读全文 →</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section" id="news"><h2>⚔️ 伊朗战争消息</h2><div class="news-content"><div class="news-update-time">最新更新：2026年03月30日 19:06</div><ul class="news-points"><li>伊朗戰爭(2026年) - 維基百科，自由的百科全書</li><li>美伊冲突 - 联合早报</li><li>实时更新：伊朗威胁：若美国发动地面入侵将予以回击 - 华尔街日报</li><li>美伊冲突变混战也门胡塞武装加入西亚战局| 八点最热报29/03/2026</li><li>美以伊战争丨以军：打击了伊朗约90%的关键军工设施 - 凤凰网</li></ul></div></section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 风云播客. 使用 GitHub Pages 部署.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭起伏与医疗决策 - 风云播客</title>
+    <meta name="description" content="记录2025年家庭起伏，包括儿子留学、父亲离世、母亲康复，以及春霞肺部结节的医疗决策过程">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fafafa;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px;
+            }
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .breadcrumb {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .breadcrumb a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .article {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .article h1 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        
+        .article-meta {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .article-content {
+            color: #333;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .article-content h2 {
+            color: #333;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        
+        .article-content h3 {
+            color: #444;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .article-content p {
+            margin-bottom: 1.2rem;
+        }
+        
+        .article-content .timeline {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .article-content .timeline-item {
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+        
+        .article-content .timeline-item::before {
+            content: "•";
+            color: #667eea;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .article-content .support-box {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .article-content .support-box h3 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+        }
+        
+        .article-content .support-item {
+            background: white;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 6px;
+            border-left: 3px solid #1976d2;
+        }
+        
+        .article-content .medical-info {
+            background: #fff3e0;
+            border: 1px solid #ffcc02;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .article-content .medical-info h3 {
+            color: #e65100;
+            margin-bottom: 1rem;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: none;
+        }
+        
+        .back-to-top:hover {
+            background: #5a6fd8;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .article {
+                padding: 1.5rem 1rem;
+            }
+            
+            .article h1 {
+                font-size: 1.5rem;
+            }
+            
+            .article-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>风云播客</h1>
+            <p>随笔与见闻</p>
+        </div>
+    </header>
+    
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">首页</a> → <a href="../index.html#essays">随笔</a> → 家庭起伏与医疗决策
+        </div>
+    </div>
+    
+    <main>
+        <div class="container">
+            <article class="article">
+                <h1>家庭起伏与医疗决策</h1>
+                <div class="article-meta">
+                    发布于 2026年3月23日 | 分类：生活随笔 · 医疗见闻
+                </div>
+                
+                <div class="article-content">
+                    <h2>2025年家庭起伏</h2>
+                    
+                    <p>我不算是个悲观的人，生活态度积极乐观。我喜欢主动学习，保持好奇心。春霞热爱生活，爸爸喜欢种地，母亲的心思全都在爸爸身上。</p>
+                    
+                    <p>2025年，我们家起伏比较大。</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item"><strong>年初：儿子申请美国大学</strong></div>
+                        <p>年初，儿子申请美国大学，我们全力押注UC Berkeley、UCLA和佐治亚理工，最终他被UMich录取。这是个惊喜的年开。</p>
+                        
+                        <div class="timeline-item"><strong>8月：欢送儿子出国</strong></div>
+                        <p>8月，我们欢送儿子出国。</p>
+                        
+                        <div class="timeline-item"><strong>年中：父亲肝病治疗</strong></div>
+                        <p>此时，爸爸的肝病开始复发。他来来回回住院，我们采取保守治疗方案，希望能压制病情发展，让他安心度过未来的日子。延长爸爸的寿命，是我们一心一意、唯一的目标。每个周六日，我和春霞都带着爸妈去晒太阳、散步、逛公园，让他们多接近奔跑的孩子们，多享受年轻的快乐，毕竟两个外孙孙子都不在身边。</p>
+                    </div>
+                    
+                    <div class="timeline">
+                        <h3>9月-11月：父亲病情恶化</h3>
+                        <div class="timeline-item"><strong>9月25日：爸爸在家突然摔倒</strong></div>
+                        <p>9月25日，爸爸在家突然摔倒，脑溢血引发癫痫、肺部积水、功能衰退。姐姐立马送爸爸到李惠利东部医院。很快，他从急诊转到脑外科病房，又进ICU；然后我们去看望，10月7日出了ICU住了普通病房，10月22日转明州康复医院。但第二天，他又脑溢血，回到李惠利ICU。真的很心疼爸爸。</p>
+                        
+                        <div class="timeline-item"><strong>11月5日：爸爸在家里走了</strong></div>
+                        <p>11月5日，爸爸在家里走了。这一年很难。</p>
+                    </div>
+                    
+                    <p><strong>11月后：母亲康复</strong></p>
+                    <p>妈妈的身体也垮了，右腿膝盖积水，无法下地。我和春霞每周六日带着妈妈散步、针灸理疗，她在慢慢恢复，心里也在慢慢建设中。</p>
+                    
+                    <h2>春霞体检发现肺部结节</h2>
+                    
+                    <p>上周五，我带着春霞一起去李惠利医院做了体检。</p>
+                    
+                    <p>当天就给了我们当头一棒。她的胸部有一个10×9毫米的磨玻璃结节，可见分叶、胸膜凹陷征象、小血管影穿行及空腔影。第二天，我们就去李惠利东部医院复查，情况不理想：六成概率是恶性的。幸运的是，这个结节是惰性的；不幸的是，已经到了处理的临界点。医生委婉地说不用急，等两个月再拍CT比较下。</p>
+                    
+                    <p>这时候，我开始自责了。</p>
+                    
+                    <p>春霞几年前从海曙财政出来自己干之后，体检一直自己打理，没有系统化体检。为了节省成本，她也不想做胸部CT，担心她妈妈的情况再出现在她身上。</p>
+                    
+                    <div class="medical-info">
+                        <h3>🏥 结节特征</h3>
+                        <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                            <li><strong>大小：</strong>10×9mm</li>
+                            <li><strong>类型：</strong>磨玻璃结节</li>
+                            <li><strong>特征：</strong>分叶、胸膜凹陷征象、小血管影穿行、空腔影</li>
+                            <li><strong>恶性概率：</strong>60%</li>
+                            <li><strong>性质：</strong>惰性（慢发展）</li>
+                            <li><strong>状态：</strong>处理临界点</li>
+                        </ul>
+                    </div>
+                    
+                    <p>我们和陈萍沟通了春霞的病情和CT片。陈萍是春霞的真闺蜜，也是互相护持的医生朋友。她认真让她的医生朋友们帮忙分析后，真心实意地要求我们立刻马上去上海看医生——不管胸科医院还是肺科医院，只要主任医生，都能给出更好的方案和治疗。我们确认了：要立刻，马上行动。</p>
+                    
+                    <p>今天，我们又看了六院胸外科主任许海平。他给出的建议还是可以等，但他也会帮我联系上海胸科医院的胡定中老医生。在这里感谢许主任，还有刘建磊兄弟。特别是建磊兄，到了晚上8点还在手术，真辛苦了。</p>
+                    
+                    <p>晚上，我和陈萍聊了很多。她给春霞打了气，我们互相滋补，互相安慰。在最最无助的时候，有人真心为她担心，为她考虑，说最温暖的话，给最有力量的支持。</p>
+                    
+                    <div class="support-box">
+                        <h3>💝 我们的支持系统</h3>
+                        
+                        <div class="support-item">
+                            <h4>陈萍：真闺蜜与医疗顾问</h4>
+                            <p>角色：春霞真闺蜜，医生朋友</p>
+                            <p>行动：认真分析CT片、让医生朋友们帮忙、给出积极建议、真心实意要求行动</p>
+                            <p>特点：互相护持、真心为她担心、说最温暖的话、给最有力量的支持</p>
+                        </div>
+                        
+                        <div class="support-item">
+                            <h4>许海平主任：专业帮助</h4>
+                            <p>身份：六院胸外科主任</p>
+                            <p>建议：可以等（保守）</p>
+                            <p>帮助：帮忙联系上海胸科医院胡定中老医生</p>
+                        </div>
+                        
+                        <div class="support-item">
+                            <h4>妈妈：坚强后盾</h4>
+                            <p>时间：周六开始知道后</p>
+                            <p>立场：直接变成后盾、依靠、妈妈</p>
+                            <p>地位：最坚强支持者</p>
+                        </div>
+                        
+                        <div class="support-item">
+                            <h4>姐姐：照顾承诺</h4>
+                            <p>承诺：会帮忙照顾</p>
+                            <p>现状：种植牙还在恢复中（可能影响行动力）</p>
+                        </div>
+                    </div>
+                    
+                    <p>还有妈妈。周六开始知道后，她直接变成了我们的后盾，我们的依靠，我们的妈妈。姐姐也说了会帮忙照顾，她的种植牙还在恢复中。</p>
+                    
+                    <p>明天，我需要做的更多。谢谢朋友们。</p>
+                    
+                    <h3>医生意见对比</h3>
+                    
+                    <table style="width: 100%; border-collapse: collapse; margin: 1rem 0; background: white;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">医生</th>
+                                <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">建议</th>
+                                <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">原因</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 8px;">李惠利医生</td>
+                                <td style="border: 1px solid #ddd; padding: 8px;">等两个月</td>
+                                <td style="border: 1px solid #ddd; padding: 8px;">观察变化</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 8px;">许海平主任</td>
+                                <td style="border: 1px solid #ddd; padding: 8px;">可以等</td>
+                                <td style="border: 1px solid #ddd; padding: 8px;">同时联系上海专家</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 8px; background: #f0f8ff;">陈萍及医生团队</td>
+                                <td style="border: 1px solid #ddd; padding: 8px; background: #f0f8ff;"><strong>立刻去上海</strong></td>
+                                <td style="border: 1px solid #ddd; padding: 8px; background: #f0f8ff;">主任医生有更好方案</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <p><em>记录于：2026年3月23日</em></p>
+                </div>
+            </article>
+        </div>
+    </main>
+    
+    <a href="#" class="back-to-top" id="backToTop">↑ 返回顶部</a>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 风云播客. 使用 GitHub Pages 部署.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // 返回顶部按钮
+        window.onscroll = function() {
+            var backToTop = document.getElementById("backToTop");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        };
+    </script>
+</body>
+</html>
