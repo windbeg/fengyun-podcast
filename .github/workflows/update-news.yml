@@ -1,0 +1,36 @@
+name: 更新伊朗战争新闻
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 每天16点（北京时间，UTC+8）
+  workflow_dispatch:    # 支持手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出仓库
+      uses: actions/checkout@v3
+      
+    - name: 设置Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 安装依赖
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: 更新新闻
+      run: python fetch_iran_news.py
+      
+    - name: 提交更改
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --staged --quiet || git commit -m "自动更新战争消息"
+        git push
+      continue-on-error: true
