@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随笔 - 风云播客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 0 0 50px 50px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .essay {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .essay:hover {
+            transform: translateY(-3px);
+        }
+        
+        .essay h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .essay .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        .essay p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        .essay:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .essay {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>随笔集</h1>
+            <p>生活中的点滴感悟，思想上的闪光火花</p>
+        </header>
+        
+        <article class="essay">
+            <h2>关于生活的思考</h2>
+            <p class="date">2026年3月31日</p>
+            <p>在这个快速变化的时代，我们需要时常停下脚步，思考生活的意义和方向。每一天都是新的开始，每一刻都值得我们去珍惜和感受。</p>
+            <p>生活就像一本书，每一页都写满了故事。有欢乐，有悲伤，有成功，也有失败。正是这些丰富的经历，构成了我们独特的人生轨迹。</p>
+            <p>学会感恩，学会珍惜，学会在平凡中发现不平凡。这或许就是生活给我们的最宝贵的礼物。</p>
+        </article>
+        
+        <article class="essay">
+            <h2 id="tech-humanity">技术与人文的融合</h2>
+            <p class="date">2026年3月30日</p>
+            <p>现代科技的发展让我们的生活变得更加便利，但也带来了一些值得深思的问题。在追求技术进步的同时，我们是否忽视了人文关怀的重要性？</p>
+            <p>技术应该服务于人，而不是让人类成为技术的奴隶。我们需要在科技发展的同时，保持对人性、对情感、对艺术的关注和热爱。</p>
+            <p>真正的进步，是技术与人文的和谐共生，是理性与感性的完美结合。</p>
+        </article>
+        
+        <article class="essay">
+            <h2>时光荏苒</h2>
+            <p class="date">2026年3月29日</p>
+            <p>时间是最公平的裁判，它不会因为任何人而停留。每一分每一秒都在流逝，我们能做的，就是珍惜当下，把握现在。</p>
+            <p>回首过去，我们或许会有遗憾，但也一定有收获。展望未来，我们或许会有迷茫，但更多的是希望和期待。</p>
+            <p>让我们在时光的长河中，做最好的自己，过最精彩的人生。</p>
+        </article>
+    </div>
+</body>
+</html>

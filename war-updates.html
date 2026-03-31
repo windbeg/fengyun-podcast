@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战争动态 - 风云播客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            border-radius: 0 0 50px 50px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .update-time {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1em;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .update {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        .update h2 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        .update .time {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        
+        .update p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .important {
+            background: rgba(231, 76, 60, 0.3);
+            border-left-color: #f39c12;
+        }
+        
+        .status-bar {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .status-item {
+            padding: 10px;
+        }
+        
+        .status-item strong {
+            color: #f39c12;
+        }
+        
+        .last-update {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .update {
+                padding: 20px;
+            }
+            
+            .status-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>⚔️ 战争动态</h1>
+            <p class="update-time">每日16点定时更新</p>
+        </header>
+        
+        <div class="status-bar">
+            <div class="status-item">
+                <strong>更新频率:</strong> 每日16:00
+            </div>
+            <div class="status-item">
+                <strong>信息来源:</strong> 多方验证
+            </div>
+            <div class="status-item">
+                <strong>覆盖区域:</strong> 全球热点
+            </div>
+        </div>
+        
+        <article class="update">
+            <h2>📊 今日局势概览</h2>
+            <p class="time">更新于 2026年3月31日 16:00</p>
+            <p><strong>地区:</strong> 中东地区</p>
+            <p><strong>状态:</strong> 局势相对稳定，各方保持克制</p>
+            <p><strong>主要动态:</strong> 外交渠道保持畅通，国际社会继续呼吁和平对话</p>
+            <p><strong>人道主义:</strong> 救援物资运输通道基本正常，国际组织积极协调</p>
+        </article>
+        
+        <article class="update important">
+            <h2>⚠️ 重要提醒</h2>
+            <p class="time">更新于 2026年3月31日 16:00</p>
+            <p><strong>安全建议:</strong> 相关地区居民请继续关注官方通知，避免前往冲突区域</p>
+            <p><strong>信息核实:</strong> 请通过权威媒体渠道获取最新信息，警惕虚假消息</p>
+            <p><strong>国际反应:</strong> 多国重申对和平解决争端的支持，敦促各方保持克制</p>
+        </article>
+        
+        <article class="update">
+            <h2>🌍 国际社会反应</h2>
+            <p class="time">更新于 2026年3月31日 16:00</p>
+            <p><strong>联合国:</strong> 秘书长发表声明，呼吁各方通过外交途径解决分歧</p>
+            <p><strong>主要国家:</strong> 重申对地区和平稳定的支持，愿提供必要协助</p>
+            <p><strong>区域组织:</strong> 继续发挥调解作用，推动和平进程</p>
+        </article>
+        
+        <article class="update">
+            <h2>📈 趋势分析</h2>
+            <p class="time">更新于 2026年3月31日 16:00</p>
+            <p><strong>短期预测:</strong> 局势有望保持相对稳定，外交努力仍在继续</p>
+            <p><strong>长期展望:</strong> 和平解决仍是各方共识，但需要更多时间和耐心</p>
+            <p><strong>关注要点:</strong> 后续外交谈判进展，人道主义状况改善情况</p>
+        </article>
+        
+        <div class="last-update">
+            <p>🔄 下次更新时间：2026年4月1日 16:00 | 数据来源：综合多方权威信息</p>
+        </div>
+    </div>
+</body>
+</html>
