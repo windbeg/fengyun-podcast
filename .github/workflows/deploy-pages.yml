@@ -1,0 +1,26 @@
+name: 部署到 GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出仓库
+      uses: actions/checkout@v4
+      
+    - name: 设置 Pages
+      uses: actions/configure-pages@v4
+      
+    - name: 上传到 GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+        
+    - name: 部署到 GitHub Pages
+      uses: actions/deploy-pages@v4
