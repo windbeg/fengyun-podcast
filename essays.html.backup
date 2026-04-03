@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随笔 - 风云播客</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 0 0 50px 50px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .essay {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .essay:hover {
+            transform: translateY(-3px);
+        }
+        
+        .essay h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .essay .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .essay p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        .essay p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .essay:last-child {
+            margin-bottom: 0;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .quote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .essay {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-btn">← 返回首页</a>
+            <h1>随笔集</h1>
+            <p>生活中的点滴感悟，思想上的闪光火花</p>
+        </header>
+        
+        <!-- 新随笔插入位置 -->
+        <article class="essay">
+            <h2>平安日的奔波与安慰</h2>
+            <p class="date">2026年3月25日</p>
+            
+            <h3>3月24日，是我们的平安日。</h3>
+            <p>早上7点钟，我们挂上了胡定中医生下午三点的专家号。</p>
+            <p>立刻马上整理行装，定火车票，无座也买。中午就到了上海。</p>
+            
+            <p>下午三点如期见到胡医生——和蔼的老医生，一看电子病例和影像资料，就给我们拍板了：</p>
+            <div class="quote">
+                <strong>"别等了，直接手术！给你开好时间尽快安排。"</strong>
+            </div>
+            
+            <p>后面就缴入院押金，等通知。</p>
+            <p>回家的路上，一路和妈妈、陈萍汇报情况，一路的安慰和欣慰自己的选择。</p>
+            <p>回家后的一晚无梦，安心一夜。💤</p>
+            
+            <h3>路上小插曲：</h3>
+            <p>在医院路上吃了中饭，点了3个菜，把我和春霞吃撑了 😂🍱</p>
+            
+            <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+            
+            <h3>苦与暖，我们都在成长</h3>
+            <p>有些时候觉得人生真的有点苦。</p>
+            <p>特别是爸爸——爸爸走了，然后妈妈也身体不好。现在春霞身体也出问题，确实让人觉得心比较沉。</p>
+            
+            <p>但有时也很暖和。💖</p>
+            <p>春霞和爸妈的关系特别好，特别亲。爸妈也特别喜欢，特别关心我们家。</p>
+            <p>虽然爸爸走了，但是妈妈和我们关系越来越近。</p>
+            <p>妈妈得知春霞的事情后，一直一直查资料，一直给她打电话，一直给她支持。</p>
+            <div class="quote">
+                <strong>"就像她说的，她就是我们的靠山，是我们的依靠。"</strong>
+            </div>
+            <p>特别暖和，我们特别懂这个珍惜的事情。❤️</p>
+            
+            <p>我是个不太会表达的人。</p>
+            <p>春霞就特别会体谅这些事情，她也会提醒你去成长。</p>
+            <p>从妈妈带我们家孩子任思齐开始，她每周一到五都来家里给我们做饭弄菜。</p>
+            <p>我每次下班都会送妈妈去车站，然后陪她聊天。</p>
+            <p>这都是春霞想到的，嘱咐我去做的。</p>
+            <p>我没那么体贴，但是<span class="highlight">有人扶着我，我也在成长</span>。🌱</p>
+            
+            <p>爸爸走之前，我们很多年习惯，每周六日都会去爸爸妈妈家一趟，跟爸爸妈妈一起过。</p>
+            <p>然后爸爸走了，每个星期六日都跟妈妈一起去逛公园，去陪妈妈散心。🚶‍♂️</p>
+            <p>每天我下班的时候，会给妈妈打电话。</p>
+            <div class="quote">
+                <strong>我们成长是靠自己，也是需要她的帮助和支持的。</strong>
+            </div>
+            
+            <h3>晚间的温暖</h3>
+            <p>3月25日下班路上，和妈妈电话。</p>
+            <p>妈妈一个劲强调：<span class="highlight">周日必须带上她去上海，照看春霞，不然她整个就不舒服，腿也恢复不了。</span></p>
+            <p>听着老太太一个劲对春霞的好，心里暖暖的。</p>
+            
+            <p>过后和春霞电话，也是一阵子的温暖，相互照耀着。💕</p>
+        </article>
+        
+        <!-- 新随笔插入位置 -->
+        <article class="essay">
+            <h2>家庭起伏与医疗决策</h2>
+            <p class="date">2026年3月23日</p>
+            
+            <h3>2025年家庭起伏</h3>
+            <p>我不算是个悲观的人，生活积极乐观。主动学习，保持好奇心，夫人爱生活，爸爸爱种地，母亲一个心在爸爸身上。</p>
+            
+            <p>2025年家庭起伏比较大，年初儿子申请美国大学，全力押注Ucb ulca 佐治亚理工，最终落花umich. 惊喜开年，8月欢送儿子出国。此时爸爸已经开始肝病复发治疗，来来回回住院，保守的方案，压制病情发展，期望安心度过未来的日子，延长爸爸的寿命是我们一心的目标，唯一的目的。每周六日，我和王春霞（我的夫人，后面我都称"春霞"）都带着爸妈去晒太阳，散步，逛公园，让爸妈多接近奔跑的孩子们，多享受年轻的快乐，毕竟两个外孙孙子都不在身边。</p>
+            
+            <p>9月25日爸爸在家里突然，爸爸摔倒脑溢血，引发癫痫、肺部积水，功能衰退，姐姐立马送爸爸到李惠利东部医院，很快从急诊到脑外科病房到icu；然后看望，10月7日出了icu住了普通病房，10月22日转明州康复医院，但第二天就又脑溢血回到李惠利icu，真的很心疼爸爸。11月5日爸爸最后在家里走了。这一年很难。</p>
+            
+            <p>妈妈，身体也垮了，右腿膝盖积水无法下地。我和春霞每周六日带着妈妈散步，针灸理疗，慢慢地恢复，心里也在慢慢建设中。</p>
+            
+            <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+            
+            <h3>春霞体检发现肺部结节</h3>
+            <p>上周五，带着春霞一起去李惠利医院做了体检。当天就给了我们一棍，她的胸部有个10*9毫米的磨玻璃结节，可见分叶、胸膜凹陷征象、小血管影穿行及空腔影。当下第二天就跑李惠利东部医院复查，情况不理想，6成概率恶性，有幸是惰性的，不幸的是解决临界点，医生委婉说不用急，等两个月再CT 拍片比较下。</p>
+            
+            <p>这个开始自责了，春霞前几年从海曙财政出来自己干后，体检一直自己打理，没有系统化体检，为了节省成本，也不想做胸部CT，担心她妈妈的情况再出现在她身上。</p>
+            
+            <p>我们和陈萍沟通春霞的病情和CT片，春霞的真闺蜜，互相护持的医生朋友，认真让她的医生朋友们帮忙分析后，真心实意地要求我们立刻马上去上海看医生，不管胸科医院还是肺科医院，只要主任医生都能更好的方案和治疗。我们确认要立刻马上行动。</p>
+            
+            <p>今天我们又看了一个六院胸外科主任许海平，给的建议还是可以等，他也会帮我联系上海胸科医院的胡定中老医生老师。在此感谢，许主任和刘建磊兄弟，特别建磊兄到了晚上8点还在手术，真辛苦了。</p>
+            
+            <p>晚上和陈萍聊了很多，给春霞打了气，互相滋补，互相安慰，在最最无助的时候，有人真心为她担心，为她考虑，说最温暖的话，给最有力量的支持。</p>
+            
+            <p>还有妈妈，周六开始知道后，直接变成我们的后盾，我们的依靠，我们的妈妈。姐姐也说了会帮忙照顾，她的种植牙还在恢复中</p>
+            
+            <div class="quote">
+                <p>明天我需要做的更多，谢谢朋友们</p>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
