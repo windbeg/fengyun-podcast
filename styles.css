@@ -222,6 +222,107 @@ main {
     line-height: 1.8;
 }
 
+/* ========== 归档页面样式 ========== */
+.month-archive {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.month-archive h3 {
+    color: #667eea;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #667eea;
+}
+
+.archive-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.archive-list li {
+    margin-bottom: 0.8rem;
+}
+
+.archive-list a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.archive-list a:hover {
+    background-color: #f0f0f0;
+}
+
+.archive-date {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    min-width: 80px;
+    text-align: center;
+}
+
+.archive-title {
+    color: #333;
+    font-size: 1rem;
+}
+
+.archive-stats {
+    list-style: none;
+    padding-left: 0;
+}
+
+.archive-stats li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.archive-stats li:last-child {
+    border-bottom: none;
+}
+
+.archive-stats strong {
+    color: #667eea;
+    font-weight: 600;
+}
+
+/* 暗色模式下的归档样式 */
+@media (prefers-color-scheme: dark) {
+    .month-archive h3 {
+        color: #90caf9;
+        border-bottom-color: #90caf9;
+    }
+
+    .archive-list a {
+        color: #e0e0e0;
+    }
+
+    .archive-list a:hover {
+        background-color: #3d3d3d;
+    }
+
+    .archive-title {
+        color: #e0e0e0;
+    }
+
+    .archive-stats li {
+        border-bottom-color: #444;
+    }
+
+    .archive-stats strong {
+        color: #90caf9;
+    }
+}
+
 /* ========== 页脚样式 ========== */
 footer {
     background: #333;

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>风云播客 - 随笔与见闻</title>
+        <link>https://windbeg.github.io/fengyun-podcast/</link>
+        <description>记录生活的点滴，留住美好的记忆。分享家庭、医疗、生活感悟的随笔。</description>
+        <language>zh-cn</language>
+        <copyright>&copy; 2026 风云播客</copyright>
+        <managingEditor>风云 (fengyun@example.com)</managingEditor>
+        <webMaster>风云 (fengyun@example.com)</webMaster>
+        <lastBuildDate>Sat, 19 Apr 2026 00:00:00 +0800</lastBuildDate>
+        <atom:link href="https://windbeg.github.io/fengyun-podcast/rss.xml" rel="self" type="application/rss+xml"/>
+        
+        <!-- 2026-04-18 -->
+        <item>
+            <title>真诚的陪伴</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-18.html</link>
+            <description>在一起的真诚，是互相的信任和包容。我和春霞，春霞和妈妈。为了更好的明天，记住今天，记住爸爸，95年一起来明楼北区的那些日子。</description>
+            <pubDate>Sat, 18 Apr 2026 23:25:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-18.html</guid>
+            <category>家庭</category>
+            <category>感悟</category>
+        </item>
+        
+        <!-- 2026-04-16 -->
+        <item>
+            <title>随笔 - 2026年4月16日</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-16.html</link>
+            <description>今天是王春霞做手术的第14天，正好两周。恢复得不错，在妈妈家里两个人互相搀扶，互相鼓励。王春霞在悄悄变胖，心态从消极中慢慢走出来，但恢复节奏让她有些落差。对儿子5月回宁波有一点点担忧，希望儿子能感受到家人的变化。愿后面的日子更加呵护。</description>
+            <pubDate>Thu, 16 Apr 2026 16:16:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-16.html</guid>
+            <category>家庭</category>
+            <category>医疗</category>
+        </item>
+        
+        <!-- 2026-04-13 -->
+        <item>
+            <title>随笔 - 2026年4月13日（周一）</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-13.html</link>
+            <description>周六周日过得很快。周六陪妈妈，周日陪老婆，但依然充实。葛翔峰送了老母鸡过来。妈妈评价说：成熟有担当的男子汉咯，有老板样子了。</description>
+            <pubDate>Mon, 13 Apr 2026 07:39:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-13.html</guid>
+            <category>生活</category>
+            <category>家庭</category>
+        </item>
+        
+        <!-- 2026-04-10 -->
+        <item>
+            <title>2026年4月10日 - 随笔</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-10.html</link>
+            <description>2026年4月10日的随笔记录</description>
+            <pubDate>Fri, 10 Apr 2026 18:52:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-10.html</guid>
+            <category>生活</category>
+        </item>
+        
+        <!-- 2026-04-08 -->
+        <item>
+            <title>2026年4月8日 - 随笔</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-08.html</link>
+            <description>2026年4月8日的随笔记录</description>
+            <pubDate>Wed, 08 Apr 2026 21:58:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-08.html</guid>
+            <category>生活</category>
+        </item>
+        
+        <!-- 2026-04-03 -->
+        <item>
+            <title>今天很长，也很快 —— 病房里的清醒时刻</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-03.html</link>
+            <description>记录手术后病房里的痛苦与坚强，从疼痛的清醒夜晚到康复训练的坚持，展现了不同人在痛苦面前的真实反应，以及即将出院时的复杂心情。</description>
+            <pubDate>Sat, 03 Apr 2026 00:00:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-03.html</guid>
+            <category>医疗</category>
+            <category>感悟</category>
+        </item>
+        
+        <!-- 2026-04-02 -->
+        <item>
+            <title>风云随笔：手术日的一天</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-02.html</link>
+            <description>记录春霞手术这一天的完整历程，从术前准备到手术过程，再到术后护理。展现了家人的陪伴、朋友的关心，以及面对困难时的坚强与希望。</description>
+            <pubDate>Fri, 02 Apr 2026 21:40:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-02.html</guid>
+            <category>医疗</category>
+            <category>家庭</category>
+        </item>
+        
+        <!-- 2026-04-01 -->
+        <item>
+            <title>上海就医记</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-01.html</link>
+            <description>3月29号，我、春霞和妈妈从宁波出发，来到上海胸科医院边的院舍酒店入住。24日回家后，确实有几个安稳觉，但回家后还是有很多身体上的不适，所以睡眠一直不好...</description>
+            <pubDate>Thu, 01 Apr 2026 10:48:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-01.html</guid>
+            <category>医疗</category>
+            <category>家庭</category>
+        </item>
+        
+        <!-- 2026-03-25 -->
+        <item>
+            <title>平安日的奔波与安慰</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-03-25.html</link>
+            <description>3月24日，是我们的平安日。早上7点钟，我们挂上了胡定中医生下午三点的专家号。立刻马上整理行装，定火车票，无座也买...</description>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-03-25.html</guid>
+            <category>医疗</category>
+            <category>家庭</category>
+        </item>
+        
+        <!-- 2026-03-23 -->
+        <item>
+            <title>家庭起伏与医疗决策</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-03-23.html</link>
+            <description>我不算是个悲观的人，生活积极乐观。主动学习，保持好奇心，夫人爱生活，爸爸爱种地，母亲一个心在爸爸身上...</description>
+            <pubDate>Mon, 23 Mar 2026 00:00:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-03-23.html</guid>
+            <category>家庭</category>
+            <category>医疗</category>
+        </item>
+        
+    </channel>
+</rss>
