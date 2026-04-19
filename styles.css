@@ -153,6 +153,22 @@ main {
     text-decoration: underline;
 }
 
+/* ========== 文章统计信息 ========== */
+.essay-stats {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.essay-stats span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
 /* ========== 标签样式 ========== */
 .tag {
     display: inline-block;
@@ -221,7 +237,136 @@ footer {
     margin-bottom: 1rem;
 }
 
+/* ========== 搜索框样式 ========== */
+.search-box {
+    margin-bottom: 2rem;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: inherit;
+}
+
+.search-box input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.search-box input::placeholder {
+    color: #999;
+}
+
+/* 暗色模式下的搜索框样式 */
+@media (prefers-color-scheme: dark) {
+    .search-box input {
+        background: #3d3d3d;
+        border-color: #444;
+        color: #e0e0e0;
+    }
+
+    .search-box input:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+    }
+
+    .search-box input::placeholder {
+        color: #666;
+    }
+}
+
 /* ========== 响应式设计 ========== */
+
+/* ========== 暗色模式（自动跟随系统） ========== */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    header {
+        background: linear-gradient(135deg, #5a4fd3 0%, #6a3a8a 100%);
+    }
+
+    nav {
+        background: #2d2d2d;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+        color: #e0e0e0;
+    }
+
+    nav a:hover {
+        color: #667eea;
+    }
+
+    .section {
+        background: #2d2d2d;
+        color: #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .section h2 {
+        color: #e0e0e0;
+    }
+
+    .essay-card {
+        background: #2d2d2d;
+        border-left: 4px solid #667eea;
+        color: #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .essay-summary {
+        color: #b0b0b0;
+    }
+
+    .essay-stats {
+        color: #888;
+    }
+
+    .about {
+        background: #2d2d2d;
+        color: #e0e0e0;
+    }
+
+    .about h3 {
+        color: #e0e0e0;
+    }
+
+    .about p {
+        color: #b0b0b0;
+    }
+
+    /* 暗色模式下的标签颜色 */
+    .tag-family {
+        background: #1a237e;
+        color: #90caf9;
+    }
+
+    .tag-medical {
+        background: #7f0000;
+        color: #ef9a9a;
+    }
+
+    .tag-reflection {
+        background: #7f3700;
+        color: #ffcc80;
+    }
+
+    .tag-life {
+        background: #1b5e20;
+        color: #a5d6a7;
+    }
+}
+
+/* 响应式设计（亮色和暗色模式都适用） */
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.5rem;
