@@ -8,8 +8,20 @@
         <copyright>&copy; 2026 风云播客</copyright>
         <managingEditor>风云 (fengyun@example.com)</managingEditor>
         <webMaster>风云 (fengyun@example.com)</webMaster>
-        <lastBuildDate>Sat, 19 Apr 2026 00:00:00 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 22:00:00 +0800</lastBuildDate>
         <atom:link href="https://windbeg.github.io/fengyun-podcast/rss.xml" rel="self" type="application/rss+xml"/>
+        
+        <!-- 2026-04-19 -->
+        <item>
+            <title>反思：莽撞的散步</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-19.html</link>
+            <description>昨天和春霞去散步，犯了术后休息的大忌。走的距离太长了，春霞整个人都在颤抖，极为难受。反思自己的莽撞，决定以后要小心恢复，改开车去上海复查。</description>
+            <pubDate>Sun, 19 Apr 2026 22:00:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-19.html</guid>
+            <category>家庭</category>
+            <category>感悟</category>
+            <category>医疗</category>
+        </item>
         
         <!-- 2026-04-18 -->
         <item>
