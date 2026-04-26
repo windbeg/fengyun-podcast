@@ -8,9 +8,21 @@
         <copyright>&copy; 2026 风云播客</copyright>
         <managingEditor>风云 (fengyun@example.com)</managingEditor>
         <webMaster>风云 (fengyun@example.com)</webMaster>
-        <lastBuildDate>Sun, 19 Apr 2026 22:00:00 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 26 Apr 2026 18:53:00 +0800</lastBuildDate>
         <atom:link href="https://windbeg.github.io/fengyun-podcast/rss.xml" rel="self" type="application/rss+xml"/>
-        
+
+        <!-- 2026-04-26 -->
+        <item>
+            <title>老婆手术恢复</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-04-26.html</link>
+            <description>上周六日，因为出去后导致老婆的状态反复往下走，然后伤口变红肿。被陈萍医生批评教育后，重新重视抗炎药物的使用。现在恢复得不错，伤口结痂基本清理干净，只剩线头了。</description>
+            <pubDate>Sun, 26 Apr 2026 18:53:00 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-26.html</guid>
+            <category>医疗</category>
+            <category>家庭</category>
+            <category>感悟</category>
+        </item>
+
         <!-- 2026-04-19 -->
         <item>
             <title>反思：莽撞的散步</title>
