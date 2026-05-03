@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
+    
+  <item>
+    <title>儿子回家了</title>
+    <link>https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</link>
+    <description><![CDATA[# 儿子回家了...]]></description>
+    <pubDate>Sun, 03 May 2026 00:00:00 +0800</pubDate>
+    <guid>https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</guid>
+</item>
         <title>风云播客 - 随笔与见闻</title>
         <link>https://windbeg.github.io/fengyun-podcast/</link>
         <description>记录生活的点滴，留住美好的记忆。分享家庭、医疗、生活感悟的随笔。</description>
@@ -8,7 +15,7 @@
         <copyright>&copy; 2026 风云播客</copyright>
         <managingEditor>风云 (fengyun@example.com)</managingEditor>
         <webMaster>风云 (fengyun@example.com)</webMaster>
-        <lastBuildDate>Sun, 26 Apr 2026 18:53:00 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 03 May 2026 12:12:26 GMT</lastBuildDate>
         <atom:link href="https://windbeg.github.io/fengyun-podcast/rss.xml" rel="self" type="application/rss+xml"/>
 
         <!-- 2026-04-26 -->
