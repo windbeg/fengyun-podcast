@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    
-  <item>
-    <title>儿子回家了</title>
-    <link>https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</link>
-    <description><![CDATA[# 儿子回家了...]]></description>
-    <pubDate>Sun, 03 May 2026 00:00:00 +0800</pubDate>
-    <guid>https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</guid>
-</item>
+    <channel>
         <title>风云播客 - 随笔与见闻</title>
         <link>https://windbeg.github.io/fengyun-podcast/</link>
         <description>记录生活的点滴，留住美好的记忆。分享家庭、医疗、生活感悟的随笔。</description>
@@ -15,8 +8,20 @@
         <copyright>&copy; 2026 风云播客</copyright>
         <managingEditor>风云 (fengyun@example.com)</managingEditor>
         <webMaster>风云 (fengyun@example.com)</webMaster>
-        <lastBuildDate>Sun, 03 May 2026 12:12:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 00:20:48 -0000 GMT</lastBuildDate>
         <atom:link href="https://windbeg.github.io/fengyun-podcast/rss.xml" rel="self" type="application/rss+xml"/>
+
+        <!-- 2026-05-03 -->
+        <item>
+            <title>儿子回家了</title>
+            <link>https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</link>
+            <description><![CDATA[2026年5月1日，下午1点。儿子安全回到宁波了。这次他从美国回来，完全是自己买票、自己坐飞机。路线是这样的：从底特律到洛杉矶、从洛杉矶到香港、从香港回宁波。更让我们惊喜的是，他还订了往返的票——8月14号，他会走同样的路线回学校。机票总费用1.2万，真的相当OK。那一刻，突然觉得孩子确实长大了。]]></description>
+            <pubDate>Sat, 02 May 2026 16:00:00 -0000 +0800</pubDate>
+            <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-05-03.html</guid>
+            <category>家庭</category>
+            <category>生活</category>
+            <category>感悟</category>
+        </item>
 
         <!-- 2026-04-26 -->
         <item>
@@ -41,7 +46,7 @@
             <category>感悟</category>
             <category>医疗</category>
         </item>
-        
+
         <!-- 2026-04-18 -->
         <item>
             <title>真诚的陪伴</title>
@@ -52,7 +57,7 @@
             <category>家庭</category>
             <category>感悟</category>
         </item>
-        
+
         <!-- 2026-04-16 -->
         <item>
             <title>随笔 - 2026年4月16日</title>
@@ -63,7 +68,7 @@
             <category>家庭</category>
             <category>医疗</category>
         </item>
-        
+
         <!-- 2026-04-13 -->
         <item>
             <title>随笔 - 2026年4月13日（周一）</title>
@@ -74,7 +79,7 @@
             <category>生活</category>
             <category>家庭</category>
         </item>
-        
+
         <!-- 2026-04-10 -->
         <item>
             <title>2026年4月10日 - 随笔</title>
@@ -84,7 +89,7 @@
             <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-10.html</guid>
             <category>生活</category>
         </item>
-        
+
         <!-- 2026-04-08 -->
         <item>
             <title>2026年4月8日 - 随笔</title>
@@ -94,7 +99,7 @@
             <guid isPermaLink="true">https://windbeg.github.io/fengyun-podcast/essays/2026-04-08.html</guid>
             <category>生活</category>
         </item>
-        
+
         <!-- 2026-04-03 -->
         <item>
             <title>今天很长，也很快 —— 病房里的清醒时刻</title>
@@ -105,7 +110,7 @@
             <category>医疗</category>
             <category>感悟</category>
         </item>
-        
+
         <!-- 2026-04-02 -->
         <item>
             <title>风云随笔：手术日的一天</title>
@@ -116,7 +121,7 @@
             <category>医疗</category>
             <category>家庭</category>
         </item>
-        
+
         <!-- 2026-04-01 -->
         <item>
             <title>上海就医记</title>
@@ -127,7 +132,7 @@
             <category>医疗</category>
             <category>家庭</category>
         </item>
-        
+
         <!-- 2026-03-25 -->
         <item>
             <title>平安日的奔波与安慰</title>
@@ -138,7 +143,7 @@
             <category>医疗</category>
             <category>家庭</category>
         </item>
-        
+
         <!-- 2026-03-23 -->
         <item>
             <title>家庭起伏与医疗决策</title>
@@ -149,6 +154,6 @@
             <category>家庭</category>
             <category>医疗</category>
         </item>
-        
+
     </channel>
 </rss>
